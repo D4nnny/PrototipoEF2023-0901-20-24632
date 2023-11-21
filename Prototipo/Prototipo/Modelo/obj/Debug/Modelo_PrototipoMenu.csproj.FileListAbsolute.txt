@@ -1,0 +1,5 @@
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\Prototipo\Prototipo\Modelo\bin\Debug\Modelo_PrototipoMenu.dll
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\Prototipo\Prototipo\Modelo\bin\Debug\Modelo_PrototipoMenu.pdb
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\Prototipo\Prototipo\Modelo\obj\Debug\Modelo_PrototipoMenu.csproj.CoreCompileInputs.cache
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\Prototipo\Prototipo\Modelo\obj\Debug\Modelo_PrototipoMenu.dll
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\Prototipo\Prototipo\Modelo\obj\Debug\Modelo_PrototipoMenu.pdb

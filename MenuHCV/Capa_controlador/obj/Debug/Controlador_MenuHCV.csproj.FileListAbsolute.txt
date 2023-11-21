@@ -1,0 +1,16 @@
+D:\8VO_SEMESTRE\ANALISIS_II\proyectoads22023\Codigo\Modulos\Menu\MenuHCV\Capa_controlador\bin\Debug\Controlador_MenuHCV.dll
+D:\8VO_SEMESTRE\ANALISIS_II\proyectoads22023\Codigo\Modulos\Menu\MenuHCV\Capa_controlador\bin\Debug\Controlador_MenuHCV.pdb
+D:\8VO_SEMESTRE\ANALISIS_II\proyectoads22023\Codigo\Modulos\Menu\MenuHCV\Capa_controlador\bin\Debug\eCryptography.dll
+D:\8VO_SEMESTRE\ANALISIS_II\proyectoads22023\Codigo\Modulos\Menu\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.csproj.AssemblyReference.cache
+D:\8VO_SEMESTRE\ANALISIS_II\proyectoads22023\Codigo\Modulos\Menu\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.csproj.CoreCompileInputs.cache
+D:\8VO_SEMESTRE\ANALISIS_II\proyectoads22023\Codigo\Modulos\Menu\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.csproj.CopyComplete
+D:\8VO_SEMESTRE\ANALISIS_II\proyectoads22023\Codigo\Modulos\Menu\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.dll
+D:\8VO_SEMESTRE\ANALISIS_II\proyectoads22023\Codigo\Modulos\Menu\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.pdb
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\MenuHCV\Capa_controlador\bin\Debug\Controlador_MenuHCV.dll
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\MenuHCV\Capa_controlador\bin\Debug\Controlador_MenuHCV.pdb
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\MenuHCV\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.csproj.AssemblyReference.cache
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.csproj.CoreCompileInputs.cache
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.csproj.CopyComplete
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.dll
+C:\Users\oscar\OneDrive\Escritorio\Danny\PrototipoEF2023-0901-20-24632\MenuHCV\Capa_controlador\obj\Debug\Controlador_MenuHCV.pdb

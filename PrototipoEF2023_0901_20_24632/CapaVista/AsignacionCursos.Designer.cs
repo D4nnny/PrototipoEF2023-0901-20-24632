@@ -197,9 +197,9 @@ namespace CapaVista
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(38, 366);
+            this.dataGridView1.Location = new System.Drawing.Point(38, 394);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(709, 291);
+            this.dataGridView1.Size = new System.Drawing.Size(648, 263);
             this.dataGridView1.TabIndex = 17;
             // 
             // AsignacionCursos

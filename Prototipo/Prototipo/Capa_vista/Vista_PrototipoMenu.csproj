@@ -31,7 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CapaVista">
+    <Reference Include="CapaVista, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\PrototipoEF2023_0901_20_24632\CapaVista\bin\Debug\CapaVista.dll</HintPath>
     </Reference>
     <Reference Include="Controlador_PrototipoMenu">

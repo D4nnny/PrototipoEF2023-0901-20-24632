@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Seguridad_Controlador;
 
 namespace CapaVista
 {
     public partial class AsignacionCursos : Form
     {
+        Controlador cn = new Controlador();
         public AsignacionCursos()
         {
             InitializeComponent();
@@ -19,14 +21,14 @@ namespace CapaVista
 
         private void navegador1_Load(object sender, EventArgs e)
         {
-            /*NavegadorVista.Navegador.idApp = "1002";  //código aplicación asignado al formulario
+            NavegadorVista.Navegador.idApp = "4001";  //código aplicación asignado al formulario
             navegador1.actual = this;
             navegador1.tabla = dataGridView1;
-            TextBox[] Grupotextbox = { txtId, txtNombre, txtDescripcion, txtEstado };
-            TextBox[] Idtextbox = { txtId, txtNombre };
+            TextBox[] Grupotextbox = { TXT_CARRERA, TXTSEDE, TXTJORNADA, TXTSECCION, TXTAULA,TXTCURSO,TXTCARNET,TXTNOTA };
+            TextBox[] Idtextbox = { TXTCARNET, TXT_CARRERA };
             navegador1.textbox = Grupotextbox;
             navegador1.textboxi = Idtextbox;
-            navegador1.cargar(dataGridView1, Grupotextbox, cn.getNombreBd());*/
+            navegador1.cargar(dataGridView1, Grupotextbox, cn.getNombreBd());
 
         }
     }

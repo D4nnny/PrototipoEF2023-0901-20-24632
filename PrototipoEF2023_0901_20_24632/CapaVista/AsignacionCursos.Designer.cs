@@ -46,6 +46,8 @@ namespace CapaVista
             this.TXTCURSO = new System.Windows.Forms.TextBox();
             this.TXTCARNET = new System.Windows.Forms.TextBox();
             this.TXTNOTA = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // navegador1
@@ -62,6 +64,7 @@ namespace CapaVista
             this.TXT_CARRERA.Name = "TXT_CARRERA";
             this.TXT_CARRERA.Size = new System.Drawing.Size(143, 20);
             this.TXT_CARRERA.TabIndex = 1;
+            this.TXT_CARRERA.Tag = "codigo_carrera";
             // 
             // label1
             // 
@@ -102,7 +105,7 @@ namespace CapaVista
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(75, 327);
+            this.label5.Location = new System.Drawing.Point(349, 194);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(80, 13);
             this.label5.TabIndex = 6;
@@ -111,7 +114,7 @@ namespace CapaVista
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(65, 355);
+            this.label6.Location = new System.Drawing.Point(343, 229);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(90, 13);
             this.label6.TabIndex = 7;
@@ -120,7 +123,7 @@ namespace CapaVista
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(360, 202);
+            this.label7.Location = new System.Drawing.Point(333, 260);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 13);
             this.label7.TabIndex = 8;
@@ -129,7 +132,7 @@ namespace CapaVista
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(423, 233);
+            this.label8.Location = new System.Drawing.Point(396, 291);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(37, 13);
             this.label8.TabIndex = 9;
@@ -141,6 +144,7 @@ namespace CapaVista
             this.TXTSEDE.Name = "TXTSEDE";
             this.TXTSEDE.Size = new System.Drawing.Size(143, 20);
             this.TXTSEDE.TabIndex = 10;
+            this.TXTSEDE.Tag = "codigo_sede";
             // 
             // TXTJORNADA
             // 
@@ -148,6 +152,7 @@ namespace CapaVista
             this.TXTJORNADA.Name = "TXTJORNADA";
             this.TXTJORNADA.Size = new System.Drawing.Size(143, 20);
             this.TXTJORNADA.TabIndex = 11;
+            this.TXTJORNADA.Tag = "codigo_jornada";
             // 
             // TXTSECCION
             // 
@@ -155,40 +160,54 @@ namespace CapaVista
             this.TXTSECCION.Name = "TXTSECCION";
             this.TXTSECCION.Size = new System.Drawing.Size(143, 20);
             this.TXTSECCION.TabIndex = 12;
+            this.TXTSECCION.Tag = "codigo_seccion";
             // 
             // TXTAULA
             // 
-            this.TXTAULA.Location = new System.Drawing.Point(165, 324);
+            this.TXTAULA.Location = new System.Drawing.Point(439, 191);
             this.TXTAULA.Name = "TXTAULA";
             this.TXTAULA.Size = new System.Drawing.Size(143, 20);
             this.TXTAULA.TabIndex = 13;
+            this.TXTAULA.Tag = "codigo_aula ";
             // 
             // TXTCURSO
             // 
-            this.TXTCURSO.Location = new System.Drawing.Point(165, 355);
+            this.TXTCURSO.Location = new System.Drawing.Point(439, 226);
             this.TXTCURSO.Name = "TXTCURSO";
             this.TXTCURSO.Size = new System.Drawing.Size(143, 20);
             this.TXTCURSO.TabIndex = 14;
+            this.TXTCURSO.Tag = "codigo_curso";
             // 
             // TXTCARNET
             // 
-            this.TXTCARNET.Location = new System.Drawing.Point(466, 199);
+            this.TXTCARNET.Location = new System.Drawing.Point(439, 257);
             this.TXTCARNET.Name = "TXTCARNET";
             this.TXTCARNET.Size = new System.Drawing.Size(143, 20);
             this.TXTCARNET.TabIndex = 15;
+            this.TXTCARNET.Tag = "carnet_alumno";
             // 
             // TXTNOTA
             // 
-            this.TXTNOTA.Location = new System.Drawing.Point(466, 230);
+            this.TXTNOTA.Location = new System.Drawing.Point(439, 288);
             this.TXTNOTA.Name = "TXTNOTA";
             this.TXTNOTA.Size = new System.Drawing.Size(143, 20);
             this.TXTNOTA.TabIndex = 16;
+            this.TXTNOTA.Tag = "nota_asignacioncursoalumnos";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(38, 366);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(709, 291);
+            this.dataGridView1.TabIndex = 17;
             // 
             // AsignacionCursos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(790, 650);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.TXTNOTA);
             this.Controls.Add(this.TXTCARNET);
             this.Controls.Add(this.TXTCURSO);
@@ -208,6 +227,7 @@ namespace CapaVista
             this.Controls.Add(this.navegador1);
             this.Name = "AsignacionCursos";
             this.Text = "AsignacionCursos";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,5 +252,6 @@ namespace CapaVista
         private System.Windows.Forms.TextBox TXTCURSO;
         private System.Windows.Forms.TextBox TXTCARNET;
         private System.Windows.Forms.TextBox TXTNOTA;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

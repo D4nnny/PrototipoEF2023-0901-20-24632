@@ -78,7 +78,7 @@ namespace Vista_PrototipoMenu
         private void btnaplicaciones_Click(object sender, EventArgs e)
         {
 
-            AsignacionCursos form = new AsignacionCursos();
+           AsignacionCursos form = new AsignacionCursos();
             form.MdiParent = this;
             form.Show();
             hideSubMenu();

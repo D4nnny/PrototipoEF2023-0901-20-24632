@@ -37,6 +37,10 @@
     <Reference Include="FontAwesome.Sharp">
       <HintPath>..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="NavegadorControlador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\NavegadorControlador.dll</HintPath>
+    </Reference>
     <Reference Include="NavegadorVista">
       <HintPath>..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\NavegadorVista.dll</HintPath>
     </Reference>
